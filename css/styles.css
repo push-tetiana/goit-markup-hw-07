@@ -1019,7 +1019,7 @@ screev and (min-resolution: 2dppx) and (min-width: 1200px) {
 }
 
 .subscription-input {
-    width: 264px;
+    width: 398px;
     height: 40px;
     background-color: var(--color-primary-dark);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1029,6 +1029,13 @@ screev and (min-resolution: 2dppx) and (min-width: 1200px) {
     color: var(--color-primary-inverted);
     outline: none;
 }
+
+@media screen and (min-width: 768px) {
+    .subscription-input {
+        width: 264px;
+    }
+}
+
 
 .subscription-input::placeholder {
     font-weight: 400;
