@@ -980,6 +980,10 @@ screev and (min-resolution: 2dppx) and (min-width: 1200px) {
     }
 }
 
+.container-footer-subscription {
+    width: 100%;
+}
+
 .subscription-form {
     display: flex;
 }
@@ -1041,9 +1045,9 @@ screev and (min-resolution: 2dppx) and (min-width: 1200px) {
 }
 
 .subscription-input {
-    margin: 0 auto;
     max-width: 398px;
     width: 100%;
+    margin: 0 auto;
     height: 40px;
     background-color: var(--color-primary-dark);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1056,6 +1060,8 @@ screev and (min-resolution: 2dppx) and (min-width: 1200px) {
 
 @media screen and (min-width: 768px) {
     .subscription-input {
+        margin-left: 0;
+        margin-right: 0;
         width: 264px;
     }
 }
